@@ -19,5 +19,17 @@ function destrutivelyRemoveFirstKitten() {
 }
 
 function appendKitten(name) {
-  var newArray = concat
+  var newArray = kittens.concat(name);
+}
+
+function prependKitten(name) {
+  var newArray = name.concat(kittens);
+}
+
+function removeLastKitten() {
+  var newArray = array.slice(-1);
+}
+
+function removeFistKitten() {
+  var newArray = array.slice(0);
 }
